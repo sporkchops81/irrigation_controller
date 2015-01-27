@@ -1,5 +1,5 @@
 //-------------------------------------------------
-// nico - august 2012
+// Sporkchops81 - January 2014
 //-------------------------------------------------
 //
 // pin 4,5,6,7: relays
@@ -19,7 +19,7 @@
 // please modify the following two lines. mac and ip have to be unique on your LAN.
 static uint8_t mymac[6] = {0x54,0x55,0x58,0x10,0x00,0x24}; 
 static uint8_t myip[4] = {192,168,1,6};
-static char baseurl[] = "http://192.168.1.6/";
+static char baseurl[] = "http://192.168.1.203/";
 static uint16_t mywwwport = 80; // listen port for tcp/www (max range 1-254)
 
 #define NUM_SWITCH 3 // # of controlled circuits
